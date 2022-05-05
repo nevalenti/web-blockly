@@ -1,0 +1,9 @@
+node_modules
+*.sublime-project
+*.sublime-workspace
+.idea
+*.iml
+.vscode
+*.swp
+*.swo
+.DS_Store

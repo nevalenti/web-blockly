@@ -1,0 +1,57 @@
+{
+  "name": "web-blockly-client",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "scripts": {
+    "start": "npm run start-dev",
+    "start-dev": "react-scripts start",
+    "build": "react-scripts build",
+    "eslint-lint": "npx eslint --ext .js --ext .jsx .",
+    "eslint-fix": "npx eslint --fix --ext .js --ext .jsx ."
+  },
+  "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.5.1",
+    "@mui/material": "^5.5.1",
+    "@reduxjs/toolkit": "^1.8.1",
+    "axios": "^0.26.1",
+    "blockly": "^7.20211209.4",
+    "js-cookie": "^3.0.1",
+    "jwt-decode": "^3.1.2",
+    "nanoid": "^3.3.2",
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-error-boundary": "^3.1.4",
+    "react-query": "^3.34.19",
+    "react-query-auth": "^1.1.0",
+    "react-redux": "^8.0.0",
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "5.0.0",
+    "redux": "^4.2.0",
+    "styled-components": "^5.3.5",
+    "zustand": "^3.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.2",
+    "eslint-plugin-react-hooks": "^4.3.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
