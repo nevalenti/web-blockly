@@ -3,7 +3,7 @@
   "author": "Valentin Negru",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nevl99/web-blockly.git"
+    "url": "git+https://github.com/nevalenti/web-blockly.git"
   },
   "scripts": {
     "start-all": "concurrently --kill-others \"npm run start-server\" \"npm run start-client\"",
